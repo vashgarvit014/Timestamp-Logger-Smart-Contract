@@ -1,13 +1,13 @@
 # ⏳ Timestamp Logger Smart Contract  
 
 ## 📜 Description  
-The **Timestamp Logger Smart Contract** allows users to log interactions on the blockchain with a timestamp. Each interaction is recorded with the sender's address and the time of execution.  
+The **Timestamp Logger Smart Contract** is a blockchain-based system designed to **log user interactions with timestamps** securely and transparently. Each recorded interaction includes the sender’s **wallet address** and **block timestamp**, ensuring **data integrity and immutability**.  
 
 ## 🚀 Features  
-- **Logs Interactions:** Stores each interaction with `msg.sender` and `block.timestamp`.  
-- **Immutable Record:** Once logged, interactions are permanently stored on-chain.  
-- **Event Emission:** Emits an event when an interaction is logged.  
-- **Retrieve Logs:** Users can fetch specific interaction details and total interaction count.  
+- **Decentralized Logging:** Stores interactions securely on-chain.  
+- **Immutable Records:** Ensures permanent and tamper-proof logging.  
+- **Event Emission:** Triggers real-time notifications on each interaction.  
+- **Retrievable Data:** Fetch specific interactions and check total logs.  
 
 ## 📂 Smart Contract Code  
 ```solidity
